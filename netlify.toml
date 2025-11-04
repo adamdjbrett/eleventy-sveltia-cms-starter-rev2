@@ -5,6 +5,10 @@
   publish = "_site"
   command = "eleventy"
 
+# Pin Node.js version for Netlify builds
+[build.environment]
+  NODE_VERSION = "22"
+
 # Cache generated content between builds (e.g. images)
 # https://github.com/jakejarvis/netlify-plugin-cache
 [[plugins]]

@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 const yaml = require("js-yaml");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
